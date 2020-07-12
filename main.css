@@ -43,7 +43,7 @@ body{
     transform: translateY(4px);
 }
 .change .bar{
-    background: green;
+    background: wheat;
     background-size: cover;
 }
 /* .change #bar1{
@@ -65,22 +65,34 @@ body{
 .nav li a{
     text-decoration: blue;
     color: orange;
+    background-color: black;
     font-size: 20px 10px;
     text-transform: uppercase;
     font-weight: bold;
-    background-size: cover;
-    font-family: Arial;
-    
+    background-size: contain;
+    font-family: Arial;  
+
+    display: inline-block;
+    color: #2196f3;
+    overflow: hidden;
+    transition: 0.2s;
 }
 .nav li a:hover{
-    color: white;
-    background:  rgb(245, 9, 9);
-    padding left: 10%;
+    color: black;
+    /* background:  rgb(245, 9, 9); */
+    padding left: 5%;
+    
+    color: black;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    transition-dalay: 1s;
 }
+
 .nav li{
-    margin: 30px 10px 10px 20px;
+    margin: 30px 10px 10px 0px;
     padding-top: 2px;
     list-style-type: none;
+    display: inline-flex;
 }
 .nav{
 display: none;
@@ -452,3 +464,46 @@ img-footer{
 
 
 /* End of Gallery Section ============ */
+/* footer=========== */
+.footer{
+    background: black;
+    text-align: center;
+    color: white;
+}
+.footer-text{
+    text-transform: uppercase;
+    color: wheat;
+    font-size: 400px;
+    margin-top: 200px;
+}
+/* End of footer=========== */
+/* #footer{
+    height: 150px;
+    background: white;
+    text-align: center;
+    padding: 50px 0 50px 0;
+
+}
+#footer-text a{
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 5px;
+    font-size: 40px;
+    border-radius: 5px;
+    transition: transform 2s ease, color 2s ease;
+}
+#footer-text a:hover{
+    transform: translateY(-20px);
+}
+.facebook{
+    color:#3b5998;
+}
+.twitter{
+    color: #38a1f3;
+}
+.instagram{
+    color: #e1306c;
+}
+.pinterest{
+    color: rgb(245, 9, 9);
+} */
