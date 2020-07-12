@@ -19,7 +19,7 @@ body{
     width:50px;
     height: 5px;
     margin: 30px 10px -10px 20px;
-    /* position: fixed; */
+    position: absolute;
     z-index: 1;
     cursor: pointer;
 }
@@ -43,7 +43,8 @@ body{
     transform: translateY(4px);
 }
 .change .bar{
-    background: white;
+    background: green;
+    background-size: cover;
 }
 /* .change #bar1{
     transform: translateZ(6px);
@@ -67,6 +68,9 @@ body{
     font-size: 20px 10px;
     text-transform: uppercase;
     font-weight: bold;
+    background-size: cover;
+    font-family: Arial;
+    
 }
 .nav li a:hover{
     color: white;
@@ -74,7 +78,7 @@ body{
     padding left: 10%;
 }
 .nav li{
-    margin: 30px 10px 10px 25px;
+    margin: 30px 10px 10px 20px;
     padding-top: 2px;
     list-style-type: none;
 }
