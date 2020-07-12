@@ -10,15 +10,22 @@
 
 </head>
 <body>
+    <!-- welcome sound======== -->
+    <div  id="backgroundMusic">
+	    <audio id="backgroundMusic" style="position:fixed; top:-100px;" autoplay="true" controls>
+	    	<source src="audio/welcome (1).mp3" type="audio/wav">
+		</audio>
+	</div>
+    <!-- End of welcome sound============ -->
     <!-- Navbar======= -->
-    <div id="menu" class="menu">
+    <div id="Menu" class="menu">
     <div id="menu-bar" onclick="onClickMenu()">
     <div id="bar1" class="bar"></div>
     <div id="bar2" class="bar"></div>
     <div id="bar3" class="bar"></div>
     <ul id="nav" class="nav">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Menu</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="breakfast.html">Menu</a></li>
         <li><a href="#">Login</a></li>
         <li><a href="#">About_Us</a></li>
         <li><a href="#">Contact_Us</a></li>
@@ -170,6 +177,57 @@
     </article>
 </section>
 <!-- End of Numbers======================= -->
+
+<!-- Gallery=========== -->
+<section  id="gallery">
+    <div>
+        <h2 class="title-text">Our Restaurant Staff</h2>
+    </div>
+    <div  id="gallery-center">
+        <article  class="gallery-item">
+            <a href="images/restaurant/1.jpg">
+            <img border="1" height="200" src="images/restaurant/1.jpg" alt="">
+        </a>
+        </article>
+        <article class="gallery-item">
+            <a href="images/restaurant/3.jpg">
+            <img border="1" height="200" src="images/restaurant/3.jpg" alt="">
+        </a>
+        </article>
+        <article class="gallery-item">
+            <a href="images/restaurant/2.jpg"></a>
+            <img border="1" height="200" src="images/restaurant/2.jpg" alt="">
+        </a>
+        </article>
+        <article class="gallery-item">
+            <a href="images/restaurant/4.jfif">
+            <img border="1" height="200" src="images/restaurant/4.jfif" alt="">
+        </a>
+        </article>
+        <article class="gallery-item">
+            <a href="images/restaurant/5.jfif">
+            <img border="1" height="200" src="images/restaurant/5.jfif" alt="">
+        </a>
+        </article>
+        <article class="gallery-item">
+            <a href="images/restaurant/6.jfif">
+            <img border="1" height="200" src="images/restaurant/6.jfif" alt="">
+        </a>
+        </article>
+        <article class="gallery-item">
+            <a href="images/restaurant/7.jfif">
+            <img border="1" height="200" src="images/restaurant/7.jfif" alt="">
+        </a>
+        </article>
+        <article class="gallery-item">
+            <a href="images/restaurant/8.jfif">
+            <img border="1" height="200" src="images/restaurant/8.jfif" alt="">
+        </a>
+        </article>
+    </div>
+
+</section>
+<!-- End of Gallery===============  -->
 <!-- social icon========== -->
 <section id="social-icons">
     <a href="#"><i class="fab fa-facebook facebook"></i></a>
